@@ -5,15 +5,16 @@ public class primeiraAula {
 	
 	public static void main(String[] args) {
 		
-		int numero;
-		String nome;
+		int maiorIdade = 18;
 		
+		int idadeIdoso = 65;
 		
-		numero = 10;
-		nome ="Fernando";
+		int jovemIdade = 16;
 		
-		System.out.println(numero + "\n" + nome);
+		int criancaIdade = 7;
 		
+		System.out.println("Maior Idade: " + maiorIdade + "\nIdade Idoso: " + idadeIdoso + "\nJovem Idade: " + 
+		jovemIdade + "\nIdade Criança: " + criancaIdade );
 	
 	
 	
