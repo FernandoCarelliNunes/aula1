@@ -17,5 +17,22 @@ public class primeiraAula {
 		
 		System.out.println(saida);
 		
+		int a = 10;
+		int b = 20;
+		int result;
+		
+		calculo(a,b);
+	}
+	
+	
+	public static int calculo(int a, int b) {
+		System.out.println("Chamada de Construtor");
+		
+		int result;
+		result = a + b;
+		int i = result = result;
+		return i;
+		
+		
 	}
 }
