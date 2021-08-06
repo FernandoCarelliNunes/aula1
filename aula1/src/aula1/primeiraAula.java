@@ -2,37 +2,30 @@ package aula1;
 
 public class primeiraAula {
 
-	
 	public static void main(String[] args) {
+
+		int nota1 = 80;
+		int nota2 = 80;
+		int nota3 = 80;
+		int nota4 = 80;
+
+		int mediaAluno = (nota1 + nota2 + nota3 + nota4) / 4;
+
+		/*operacoes logicas aninhadas, sao operacoes dentro de operacoes */
+		
+		if(mediaAluno >= 50) {
+			if(mediaAluno >= 70) {
+				System.out.println("Aluno aprovado Direto\n");
+				System.out.println(mediaAluno);
+				
+			}else {
+				System.out.println("Aluno esta em Recuperação\n");
+				System.out.println(mediaAluno);
+			}
+		}else {
+			System.out.println("Aluno Reprovado\n");
+			System.out.println(mediaAluno);
+		}
 	
-		/*Concatenacao de variaveis = unir ou juntar dados*/
-		
-		
-		String nome = "Fernando Carelli";
-		String cpf = "220.397.278-5";
-		String telefone = "(19)98850-4886";
-		String endereco ="Rua dos Caningas";
-		String saida = "Meu nome é: " + nome + "\nMeu Cpf é : " + cpf + "\nMeu Telefone é:  " 
-				+ telefone + "\nMeu Endereço é:  " + endereco;
-		
-		System.out.println(saida);
-		
-		int a = 10;
-		int b = 20;
-		int result;
-		
-		calculo(a,b);
-	}
-	
-	
-	public static int calculo(int a, int b) {
-		System.out.println("Chamada de Construtor");
-		
-		int result;
-		result = a + b;
-		int i = result = result;
-		return i;
-		
-		
 	}
 }
