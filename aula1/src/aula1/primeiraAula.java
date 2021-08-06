@@ -2,23 +2,21 @@ package aula1;
 
 public class primeiraAula {
 
+	static int maiorIdadeGlobal = 30; /*variavel globol é acessivel a todos e seu valor é 
+	compartilhado*/
 	
 	public static void main(String[] args) {
 		
-		int maiorIdade = 18;
 		
-		int idadeIdoso = 65;
+		int maiorIdade = 18; /*variavel local, porque pertence somente a esse metodo*/
 		
-		int jovemIdade = 16;
+		System.out.println("Valor da variavel local : " + maiorIdade);
+		metodo2();
 		
-		int criancaIdade = 7;
+	}
+	
+	public static void metodo2() {
 		
-		System.out.println("Maior Idade: " + maiorIdade + "\nIdade Idoso: " + idadeIdoso + "\nJovem Idade: " + 
-		jovemIdade + "\nIdade Criança: " + criancaIdade );
-	
-	
-	
-	
-
-}
+		System.out.println("Valor da variavel global é" + maiorIdadeGlobal);
+	}
 }
