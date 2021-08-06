@@ -5,13 +5,17 @@ public class primeiraAula {
 	
 	public static void main(String[] args) {
 	
-		double nota1 = 90;
-		double nota2 = 70;
-		double nota3 = 50;
-		double nota4 = 88;
+		/*Concatenacao de variaveis = unir ou juntar dados*/
 		
-		double mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
-		System.out.println(" Media das notas = " + mediaFinal );
+		
+		String nome = "Fernando Carelli";
+		String cpf = "220.397.278-5";
+		String telefone = "(19)98850-4886";
+		String endereco ="Rua dos Caningas";
+		String saida = "Meu nome é: " + nome + "\nMeu Cpf é : " + cpf + "\nMeu Telefone é:  " 
+				+ telefone + "\nMeu Endereço é:  " + endereco;
+		
+		System.out.println(saida);
 		
 	}
 }
